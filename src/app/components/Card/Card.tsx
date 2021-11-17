@@ -42,7 +42,7 @@ const CardContainer = styled.article<Partial<CardProps>>`
     props.display === 'regular' ? '1fr 1fr' : '1fr'};
   gap: 10px;
   max-width: ${(props) =>
-    props.display === 'compactWide' ? '300px' : '100%'};;
+    props.display === 'compactWide' ? '300px' : '100%'}; ;
 `;
 
 const Image = styled.img`
